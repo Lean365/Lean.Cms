@@ -327,13 +327,29 @@ graph TD
 项目文档采用以下结构：
 
 - `README.md`（当前文件）- 项目概览和快速入门
-- `docs/` - 详细技术文档
-  - `README.md` - 文档索引
-  - `industries/` - 行业模板文档
-    - `enterprise.md` - 企业门户
-    - `training.md` - 教育培训
-    - `hospital.md` - 医疗门户
-    // ... 其他行业文档
+- `docs/` - 行业模板文档
+  - `README-Enterprise.md` - 企业门户
+  - `README-Education.md` - 教育培训
+  - `README-Hospital.md` - 医疗门户
+  - `README-Government.md` - 政府机构
+  - `README-Trade.md` - 商贸服务
+  - `README-Retail.md` - 零售门户
+  - `README-Finance.md` - 金融服务
+  - `README-Media.md` - 文化传媒
+  - `README-RealEstate.md` - 房地产门户
+  - `README-Construction.md` - 建筑门户
+  - `README-HomeDecoration.md` - 家装门户
+  - `README-Manufacturing.md` - 制造门户
+  - `README-Logistics.md` - 物流门户
+  - `README-Agriculture.md` - 农业门户
+  - `README-Tourism.md` - 旅游门户
+  - `README-Energy.md` - 能源门户
+  - `README-Environmental.md` - 环保门户
+  - `README-Catering.md` - 餐饮门户
+  - `README-Beauty.md` - 美容门户
+  - `README-Fitness.md` - 健身门户
+  - `README-Automotive.md` - 汽车门户
+  - `README-IT.md` - IT门户
 
 ## 📚 支持的行业模板
 
@@ -394,7 +410,10 @@ yarn develop
 │   ├── README-Enterprise.md    # 企业门户
 │   ├── README-Education.md     # 教育培训
 │   ├── README-Hospital.md      # 医疗门户
-│   └── ...                     # 其他行业模板
+│   ├── README-Government.md    # 政府机构
+│   ├── README-Trade.md        # 商贸服务
+│   ├── README-Retail.md       # 零售门户
+│   └── ...                    # 其他行业模板
 ├── src/                 # 源代码
 ├── config/              # 配置文件
 ├── public/              # 静态资源
