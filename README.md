@@ -329,7 +329,8 @@ graph TD
 - `README.md`（当前文件）- 项目概览和快速入门
 - `docs/` - 行业模板文档
   - `README-Enterprise.md` - 企业门户
-  - `README-Education.md` - 教育培训
+  - `README-Education.md` - 学校教育
+  - `README-Training.md` - 教育培训
   - `README-Hospital.md` - 医疗门户
   - `README-Government.md` - 政府机构
   - `README-Trade.md` - 商贸服务
@@ -356,7 +357,8 @@ graph TD
 > 详细文档请访问 [docs/](docs/)
 
 - [企业门户](docs/README-Enterprise.md) - 适用于集团企业、制造企业、科技企业等
-- [教育培训](docs/README-Education.md) - 适用于培训机构、在线教育、职业培训等
+- [学校教育](docs/README-Education.md) - 适用于大学、学院等正规教育机构
+- [教育培训](docs/README-Training.md) - 适用于培训机构、在线教育平台等
 - [医疗健康](docs/README-Hospital.md) - 适用于医院、诊所、健康机构等
 - [政府机构](docs/README-Government.md) - 适用于政府部门、事业单位等
 - [商贸服务](docs/README-Trade.md) - 适用于进出口贸易、批发零售等
@@ -408,8 +410,9 @@ yarn develop
 ```
 ├── docs/                # 行业模板文档
 │   ├── README-Enterprise.md    # 企业门户
-│   ├── README-Education.md     # 教育培训
-│   ├── README-Hospital.md      # 医疗门户
+│   ├── README-Education.md     # 学校教育
+│   ├── README-Training.md       # 教育培训
+│   ├── README-Hospital.md       # 医疗门户
 │   └── ...                    # 其他行业模板
 ├── src/                 # 源代码
 ├── config/              # 配置文件
